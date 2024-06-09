@@ -7,6 +7,52 @@ This is a simple Flask application that performs basic CRUD (Create, Read, Updat
 - Python 3.x
 - Requirements (`pip install -r requirements.txt`)
 
+### Setting Up a Virtual Environment
+
+#### On Linux
+
+1. **Install virtualenv** (if not already installed):
+    ```bash
+    pip install virtualenv
+    ```
+
+2. **Create a virtual environment**:
+    ```bash
+    virtualenv venv
+    ```
+
+3. **Activate the virtual environment**:
+    ```bash
+    source venv/bin/activate
+    ```
+
+4. **Install required packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+#### On Windows
+
+1. **Install virtualenv** (if not already installed):
+    ```bash
+    pip install virtualenv
+    ```
+
+2. **Create a virtual environment**:
+    ```bash
+    virtualenv venv
+    ```
+
+3. **Activate the virtual environment**:
+    ```bash
+    venv\Scripts\activate
+    ```
+
+4. **Install required packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ### Project Structure
 
 ```
@@ -14,8 +60,6 @@ flask_app/
 ├── app.py
 └── templates/
     └── index.html
-├── readme.md
-├── requirements.txt
 ```
 
 ### Setup Instructions
@@ -26,17 +70,19 @@ flask_app/
     cd flask_app
     ```
 
-2. **Install required packages**:
+2. **Create and activate a virtual environment** (see above instructions).
+
+3. **Install required packages**:
     ```bash
-    pip install flask
+    pip install -r requirements.txt
     ```
 
-3. **Run the application**:
+4. **Run the application**:
     ```bash
     python app.py
     ```
 
-4. **Access the application**:
+5. **Access the application**:
     Open your browser and navigate to `http://127.0.0.1:5000/`.
 
 ### Application Workflow
@@ -75,6 +121,7 @@ The database is initialized automatically when the application runs for the firs
 - **Method**: POST
 - **Description**: Deletes the specified item from the database.
 - **Redirects**: Redirects to the main page (`/`) after deletion.
+
 
 ### Known Bugs
 
