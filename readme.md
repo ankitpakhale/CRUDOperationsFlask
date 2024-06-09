@@ -23,7 +23,7 @@ This is a simple Flask application that performs basic CRUD (Create, Read, Updat
 
 3. **Activate the virtual environment**:
     ```bash
-    . .venv/bin/activate
+    .  .venv/bin/activate
     ```
 
 4. **Install required packages**:
@@ -60,6 +60,9 @@ flask_app/
 ├── app.py
 └── templates/
     └── index.html
+├── .gitignore
+├── readme.md
+└── requirements.txt
 ```
 
 ### Setup Instructions
