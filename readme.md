@@ -18,12 +18,12 @@ This is a simple Flask application that performs basic CRUD (Create, Read, Updat
 
 2. **Create a virtual environment**:
     ```bash
-    virtualenv venv
+    virtualenv .venv
     ```
 
 3. **Activate the virtual environment**:
     ```bash
-    source venv/bin/activate
+    . .venv/bin/activate
     ```
 
 4. **Install required packages**:
@@ -40,12 +40,12 @@ This is a simple Flask application that performs basic CRUD (Create, Read, Updat
 
 2. **Create a virtual environment**:
     ```bash
-    virtualenv venv
+    virtualenv .venv
     ```
 
 3. **Activate the virtual environment**:
     ```bash
-    venv\Scripts\activate
+    .venv\Scripts\activate
     ```
 
 4. **Install required packages**:
@@ -66,7 +66,7 @@ flask_app/
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/ankitpakhale/CRUDOperationsFlask.git
     cd flask_app
     ```
 
