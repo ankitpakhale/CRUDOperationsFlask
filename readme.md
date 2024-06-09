@@ -56,7 +56,7 @@ This is a simple Flask application that performs basic CRUD (Create, Read, Updat
 ### Project Structure
 
 ```
-flask_app/
+CRUDOperationsFlask/
 ├── app.py
 └── templates/
     └── index.html
